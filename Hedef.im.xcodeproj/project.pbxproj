@@ -13,6 +13,9 @@
 		D325373A1AF37ED400CEBE7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32537391AF37ED400CEBE7A /* Images.xcassets */; };
 		D325373D1AF37ED400CEBE7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D325373B1AF37ED400CEBE7A /* LaunchScreen.xib */; };
 		D32537491AF37ED400CEBE7A /* Hedef_imTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32537481AF37ED400CEBE7A /* Hedef_imTests.swift */; };
+		D32537531AF37FEC00CEBE7A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32537521AF37FEC00CEBE7A /* ToDoItem.swift */; };
+		D32537551AF39CDD00CEBE7A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32537541AF39CDD00CEBE7A /* TableViewCell.swift */; };
+		D32537571AF3B5FD00CEBE7A /* StrikeThroughText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32537561AF3B5FD00CEBE7A /* StrikeThroughText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D32537421AF37ED400CEBE7A /* Hedef.imTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hedef.imTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32537471AF37ED400CEBE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32537481AF37ED400CEBE7A /* Hedef_imTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hedef_imTests.swift; sourceTree = "<group>"; };
+		D32537521AF37FEC00CEBE7A /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		D32537541AF39CDD00CEBE7A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D32537561AF3B5FD00CEBE7A /* StrikeThroughText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeThroughText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				D32537391AF37ED400CEBE7A /* Images.xcassets */,
 				D325373B1AF37ED400CEBE7A /* LaunchScreen.xib */,
 				D32537301AF37ED400CEBE7A /* Supporting Files */,
+				D32537521AF37FEC00CEBE7A /* ToDoItem.swift */,
+				D32537541AF39CDD00CEBE7A /* TableViewCell.swift */,
+				D32537561AF3B5FD00CEBE7A /* StrikeThroughText.swift */,
 			);
 			path = Hedef.im;
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32537571AF3B5FD00CEBE7A /* StrikeThroughText.swift in Sources */,
 				D32537351AF37ED400CEBE7A /* ViewController.swift in Sources */,
+				D32537551AF39CDD00CEBE7A /* TableViewCell.swift in Sources */,
 				D32537331AF37ED400CEBE7A /* AppDelegate.swift in Sources */,
+				D32537531AF37FEC00CEBE7A /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
